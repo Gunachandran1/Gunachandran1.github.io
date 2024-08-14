@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Guna chandiran</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="https://kit.fontawesome.com/1c3b2e895a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+</head>
+
+
+<body>
+    <!-- GRADIANT EFFECT ON TOP -->
+    <h1 id="main-heading" class="gradiant-effect"></h1>
+    <!-- MAIN DIVIDER WHICH CONTAINS ALL THE OTHER CATEGORY-->
+    <div id="main-box">
+        <!-- ABOUT ME SECTION -->
+        <div class="d-flex justify-content-center" id="about-me">
+            <div class="d-flex">
+
+                <div class="flex-grow-1 ms-5 name-heading">
+                    <!-- NAME OF THE PERSON -->
+                    <h1>Guna chandiran</h1>
+                    <!-- ABOUT HIM -->
+                    <p class="gray-text">I am Guna , a passionate data analyst and machine learning enthusiast currently studying at RVS College of Engineering. My journey in the world of data has led me to work on various projects, from stock market prediction using advanced techniques like random forest and linear regression to sentiment analysis of textual data. This portfolio showcases my skills, projects, and the knowledge I've gained along the way.</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="gradiant-effect" id="second-heading">SKILLS</h1>
+        <br>
+        <!-- SKILLS OR TECH HE KNOWS -->
+    <div class="d-flex justify-content-center align-content-between flex-wrap" id="skills">
+        <i class="fab fa-python skills-icon" data-tippy-content="Python"></i>
+        <i class="fas fa-robot skills-icon" data-tippy-content="Machine Learning"></i>
+        <i class="fas fa-database skills-icon" data-tippy-content="Data Science"></i>
+    </div>
+
+
+        <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
+            <h1>PROJECTS</h1>
+        </div>
+
+        <!-- PROJECT THAT HE OWNS -->
+        <div class="container-xxl" style="max-width: 1034px;" id="projects">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card mb-3 h-100" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stock market prediction</h5>
+                            <p class="card-text">In this project, I developed a predictive model to forecast stock market prices using machine learning techniques. I implemented both Random Forest and Linear Regression algorithms to analyze historical stock data and predict future trends.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-3 h-100" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sentiment analysis</h5>
+                            <p class="card-text">In this project, I conducted a sentiment analysis on social media data to gauge public opinion on various topics.I then applied machine learning algorithms to classify sentiments as positive, negative, or neutral.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+
+        <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="fourth-heading">
+            <h1>CONTACT ME</h1>
+        </div>
+
+
+        <div class="container-xxl" style="max-width: 1034px;" id="contact-me">
+            <form>
+                <div class="mb-3">
+                    <label for="gunachandran367@gmail.com" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="gunachandran367@gmail.com" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="color: white">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <script>
+        tippy('[data-tippy-content]', {
+            arrow: false,
+            inertia: true,
+            animation: 'scale',
+            theme: 'gradiant',
+            placement: 'bottom',
+        });
+    </script>
+
+
+</body>
+
+</html>
